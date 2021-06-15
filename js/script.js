@@ -17,7 +17,6 @@ $(function () {
     return false;
   });
 
-
   demo_wave();
 
 });
