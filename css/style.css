@@ -233,7 +233,8 @@ canvas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: -50px;
+  margin-bottom: 5%;
+  text-align: center;
 }
 
 .skill-item {
@@ -252,10 +253,20 @@ canvas {
 
 .skill-body {
   flex: 1;
+  text-align: center;
 }
 
 .skill-name {
   margin-bottom: 3px;
+}
+
+.skill-text {
+  display: inline-block;
+  text-align: left;
+}
+
+.add-info{
+  text-align: center;
 }
 
 /*--------------------------------
@@ -296,6 +307,21 @@ canvas {
 .contact-text {
   margin-top: 10px;
 }
+
+.form-ele {
+  margin: 0 0 0 10px;
+  height: 28px;
+  width: 9em;
+  transition: all .6s ease;
+  border-bottom:1px solid #cccccc;
+  border-right:none;
+  border-left:none;
+  border-top:none;
+  border-radius:0px;
+}
+  .form-ele:focus{
+  width:16em;
+  }
 /*--------------------------------
  ページトップ
 ---------------------------------*/
@@ -495,6 +521,7 @@ canvas {
   .profile-body p:not(:last-child) {
     margin-bottom: 20px;
   }
+
 
   /* フッター */
   .footer {
