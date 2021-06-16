@@ -263,6 +263,7 @@ canvas {
 .skill-text {
   display: inline-block;
   text-align: left;
+  width: 50%;
 }
 
 .add-info{
