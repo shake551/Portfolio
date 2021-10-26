@@ -55,14 +55,24 @@
                             電車の運行状況をお知らせするLINEbotです
                         </p>
                         <h3 class="article-info-title">URLなど</h3>
-                        <p>なし</p>
+                            <div class="trainqr-img">
+                                <img src="img/train_qr.png" alt="">
+                            </div>
+                            <p>LINE botのQRコードです</p>
                         <h3 class="article-info-title">サイト作成の動機</h3>
                         <p>
                             電車の運行情報を通知してくれるアプリ等は存在しますが、「アプリのダウンロード」「通知のON」というハードルがあり、使いにくいと感じていました．そこで、多くの人が通知をONにしているLINEを使って通知しようと考え開発しました．
                         </p>
-                        <h3 class="article-info-title">コーディングについて</h3>
+                        <h3 class="article-info-title">機能・処理等</h3>
                         <p>
-                            現在の機能は、通常運転でない路線の一覧を通知することとユーザーから送信された路線を部分一致で検索しヒットした路線の運行状況を通知することです．処理としてはwebサイトの情報をスクレイピングして、整形しています．
+                            現在の機能は以下のようなものがあります．<br>
+                            ・通常運転でない路線の一覧送信<br>
+                            ・送信された路線名にヒットする路線の運行情報の通知<br>
+                            <br>
+                            電車の運行情報は以下のサイトからスクレイピングしていて、現在は近畿の路線のみ対応しています．<br>
+                            ・<a href="https://transit.yahoo.co.jp/traininfo/area/6/">https://transit.yahoo.co.jp/traininfo/area/6/</a><br>
+                            ユーザーが増えたりしてリクエストが集中した時にサイト運営側に負荷がかからないように、スクレイピングしたデータをDBに登録して、そこから運行状況を取得するという仕様にしています．<br>
+                            現在の方法では根本的解決にはなっていないので今後改善していきたいと考えています．
                         </p>
                         <h3 class="article-info-title">使用したもの</h3>
                         <table class="img-table">
@@ -85,14 +95,18 @@
                                     <img src="img/line-dev.jpg" alt="">
                                     <p>LINE Developers</p>
                                 </td>
+                                <td>
+                                    <img src="img/postgres.png" alt="">
+                                    <p>postgresql</p>
+                                </td>
                             </tr>
                         </table>
                         <h3 class="article-info-title">今後したいこと</h3>
                         <p>
                         <ul>
+                            <li>リクエスト集中時の対策</li>
                             <li>能動的な通知</li>
                             <li>路線の登録機能追加</li>
-                            <li>運行状況をデータベースなどに格納することによる高速化</li>
                         </ul>
                         </p>
                     </div>

@@ -404,6 +404,10 @@ canvas {
   text-align: center;
 }
 
+.trainqr-img {
+  width: 50%;
+}
+
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
