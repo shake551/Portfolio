@@ -1,18 +1,9 @@
 body {
-  font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
-}
-
-.index-body {
-  background: linear-gradient(
-    to top,
-    #d39a62 14%,
-    #3170e6 17%,
-    #6de2ff 100%
-  );
 }
 
 a {
@@ -92,7 +83,7 @@ canvas {
   z-index: 1;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  box-shadow: 0 5px 10px -6px rgba(0, 0, 0, .1);
 }
 
 .header .inner {
@@ -133,6 +124,7 @@ canvas {
   letter-spacing: .05em;
   color: #333;
 }
+
 .header-nav-item a:after {
   position: absolute;
   bottom: 0;
@@ -181,6 +173,7 @@ canvas {
   margin-bottom: 5px;
   letter-spacing: .1em;
 }
+
 .main-visual-subtitle {
   font-size: 20px;
   font-weight: bold;
@@ -266,7 +259,7 @@ canvas {
   width: 50%;
 }
 
-.add-info{
+.add-info {
   text-align: center;
 }
 
@@ -279,17 +272,21 @@ canvas {
   max-width: 800px;
   margin: 0 auto;
 }
+
 .profile-img {
   width: 20%;
   margin-right: 30px;
   border-radius: 50%;
 }
+
 .profile-img img {
   border-radius: 50%;
 }
+
 .profile-body {
   flex: 1;
 }
+
 .profile-body p:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -314,15 +311,17 @@ canvas {
   height: 28px;
   width: 9em;
   transition: all .6s ease;
-  border-bottom:1px solid #cccccc;
-  border-right:none;
-  border-left:none;
-  border-top:none;
-  border-radius:0px;
+  border-bottom: 1px solid #cccccc;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-radius: 0px;
 }
-  .form-ele:focus{
-  width:16em;
-  }
+
+.form-ele:focus {
+  width: 16em;
+}
+
 /*--------------------------------
  ページトップ
 ---------------------------------*/
@@ -474,6 +473,7 @@ canvas {
   .main-visual-title {
     font-size: 30px;
   }
+
   .main-visual-subtitle {
     font-size: 16px;
     margin-bottom: 20px;
@@ -513,6 +513,7 @@ canvas {
   .profile {
     display: block;
   }
+
   .profile-img {
     width: 150px;
     margin: 0 auto;
