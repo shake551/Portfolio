@@ -389,11 +389,12 @@ canvas {
 
 .article-body table {
   text-align: center;
+  width: 100%;
 }
 
 .article-body img {
   margin-bottom: 30px;
-  width: 50%;
+  width: 15vw;
 }
 
 .article-body p {
