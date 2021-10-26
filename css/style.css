@@ -232,9 +232,10 @@ canvas {
 
 .skill-item {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  width: 48%;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -247,6 +248,8 @@ canvas {
 .skill-body {
   flex: 1;
   text-align: center;
+  width: 50%;
+  min-width: 400px;
 }
 
 .skill-name {
@@ -257,6 +260,7 @@ canvas {
   display: inline-block;
   text-align: left;
   width: 50%;
+  margin-bottom: 30px;
 }
 
 .add-info {
