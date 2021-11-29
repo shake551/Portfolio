@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='shake ポートフォリオ'>
+  <meta property='og:url' content='https://shake551.github.io/portfolio/'>
+  <meta property='og:description' content='shakeのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="shakeのポートフォリオサイトです" />
+  <title>shake ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href="https://shake551.github.io/portfolio/" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="inner">
+        <h1 class="header-logo">
+          <a href="./index.html">shake</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="./index.html#works">WORKS</a></li>
+            <li class="header-nav-item"><a href="./index.html#skill">SKILL</a></li>
+            <li class="header-nav-item"><a href="./index.html#about">ABOUT</a></li>
+            <li class="header-nav-item"><a href="./index.html#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <article class="article">
+        <div class="article-inner">
+          <h2 class="article-title">配達代行サービス</h2>
+          <div class="article-img">
+            <img src="img/yamato_de.png" alt="">
+          </div>
+          <div class="article-body">
+            <p>
+              荷物の配達を公共交通機関に依頼するシステムです
+            </p>
+            <h3 class="article-info-title">サイト作成の動機</h3>
+            <p>
+              <a href="https://hackathon.we-are-ma.jp/yamato2021-02/">ヤマト運輸さんの2daysハッカソン</a>に参加し、作成したwebアプリです．<br>
+              SDGsの推進を受けて、二酸化炭素を排出する車の削減が進められています．
+              しかし、地方ではマイカーがないと生活が困難だという場所が多く、そのような場所では公共バスも数時間に一本程度というのが実情です．
+              一方で運送会社に目を向けると、都市部では一気に荷物を運ぶことが可能ですが、地方では長距離を車で移動しなければならず、二酸化炭素の削減の大きな課題となっています．
+              そこでなんとか利用人数を増やしたいバス会社と、地方での配送を効率化したい運送会社をマッチングするアプリの開発に着手しました．<br>
+              <a href="https://protopedia.net/prototype/2801">こちら</a>にも説明があります．
+            </p>
+            <h3 class="article-info-title">担当</h3>
+            <p>
+              主にバックエンドの開発を担当しました．
+              しかし、チーム内にフロントエンドをできる人がいなかったので、jsでAPIを叩く処理などフロントエンドの開発もしました．
+              すごくいい経験となりました．
+            </p>
+            <h3 class="article-info-title">機能・処理等</h3>
+            <p>
+              現在の機能は以下のようなものがあります．<br>
+              &lt;バス会社側&gt;<br>
+              ・時刻表の登録<br>
+              ・配達可能な区間、時間の登録<br>
+              ・荷物を運んだことの登録<br>
+              ・料金の確認<br>
+              &lt;運送会社側&gt;<br>
+              ・配送可能便の一覧閲覧<br>
+              ・配送代行の予約<br>
+              ・荷物を積んだことの登録<br>
+              ・料金の確認
+            </p>
+            <h3 class="article-info-title">アプリ概要</h3>
+            <p>
+              バス会社が配達代行可能な便と乗せることのできる量を登録<br>↓<br>
+              運送会社は便を選択し、乗せたい荷物の量を入力して予約<br>↓<br>
+              運送会社がバスに荷物を積んだら登録<br>↓<br>
+              バス会社は荷物を運び終わったら登録<br>↓<br>
+              料金の確認<br><br>
+              このような機能で荷物の追跡もできるようになっています．
+            </p>
+            <h3 class="article-info-title">使用したもの</h3>
+            <table class="img-table">
+              <tr>
+                <td>
+                  <img src="img/python.png" alt="">
+                  <p>Python</p>
+                </td>
+                <td>
+                  <img src="img/django.png" alt="">
+                  <p>Django</p>
+                </td>
+                <td>
+                  <img src="img/js.png" alt="">
+                  <p>javascript</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/html.png" alt="">
+                  <p>HTML</p>
+                </td>
+                <td>
+                  <img src="img/css.png" alt="">
+                  <p>CSS</p>
+                </td>
+                <td>
+                  <img src="img/mysql.png" alt="">
+                  <p>MySQL</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/docker.png" alt="">
+                  <p>Docker</p>
+                </td>
+              </tr>
+            </table>
+            <h3 class="article-info-title">今後したいこと</h3>
+            <p>
+            <ul>
+              <li>実際の時刻表の情報での動作</li>
+              <li>バス以外の公共交通機関の対応</li>
+              <li>UIの改善</li>
+            </ul>
+            </p>
+          </div>
+          <div class="home-link">
+            <a href="./index.html#works">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;shake</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+
+</html>
