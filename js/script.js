@@ -47,7 +47,7 @@ $(function () {
             pointHoverBackgroundColor: "#fff",
             pointHoverBorderColor: "rgba(150,200,250,1)",
             hitRadius: 3,
-            data: [2, 1.5, 1]
+            data: [2, 1.5, 2]
         }
     ]
   }
