@@ -36,7 +36,7 @@ $(function () {
   }
   
   frontData =  {
-    labels: ["HTML", "CSS", "Javascript"],
+    labels: ["HTML", "React.js", "CSS", "Javascript"],
     datasets: [
         {
             label: "front-end",
@@ -47,7 +47,7 @@ $(function () {
             pointHoverBackgroundColor: "#fff",
             pointHoverBorderColor: "rgba(150,200,250,1)",
             hitRadius: 3,
-            data: [2, 1.5, 2]
+            data: [2, 2, 1.5, 2]
         }
     ]
   }
