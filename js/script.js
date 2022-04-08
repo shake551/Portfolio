@@ -19,7 +19,7 @@ $(function () {
   
   // chart表示のためのデータ定義
   backData =  {
-    labels: ["Python", "PHP", "C++", "C", "Node.js"],
+    labels: ["Python", "PHP", "C++", "C", "Java"],
     datasets: [
         {
             label: 'back-end',
@@ -30,7 +30,7 @@ $(function () {
             pointHoverBackgroundColor: "#fff",
             pointHoverBorderColor: "rgba(250,100,150,1)",
             hitRadius: 5,
-            data: [4, 4, 3.5, 3, 2]
+            data: [4, 4, 3.5, 3, 5]
         }
     ]
   }
