@@ -9,209 +9,213 @@
     <meta property='og:url' content='https://shake551.github.io/portfolio/'>
     <meta property='og:description' content='shakeのポートフォリオサイトです。'>
     <meta property="og:image" content="img/ogp.png">
-    <meta name="description" content="shakeのポートフォリオサイトです" />
+    <meta name="description" content="shakeのポートフォリオサイトです"/>
     <title>shake ポートフォリオ</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
-    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="img/favicon.ico" />
-    <link rel=”canonical” href='https://shake551.github.io/portfolio/' />
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel=”canonical” href='https://shake551.github.io/portfolio/'/>
 </head>
 
 <body class="index-body">
-    <div class="wrapper">
+<div class="wrapper">
 
-        <!-- header -->
-        <header class="header ">
+    <!-- header -->
+    <header class="header ">
+        <div class="inner">
+            <h1 class="header-logo">
+                <a href="./index.html">shake</a>
+            </h1>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a href="#works">WORKS</a></li>
+                    <li class="header-nav-item"><a href="#skill">SKILL</a></li>
+                    <li class="header-nav-item"><a href="#about">ABOUT</a></li>
+                    <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+        <!-- main-visual -->
+        <div class="main-visual">
+            <canvas id="canvas_wave"></canvas>
+            <div class="main-visual-inner">
+                <p class="main-visual-title">shake</p>
+                <p class="main-visual-subtitle">PORTFOLIO</p>
+            </div>
+        </div>
+        <!-- /main-visual -->
+
+        <!-- works -->
+        <section class="works section" id="works">
             <div class="inner">
-                <h1 class="header-logo">
-                    <a href="./index.html">shake</a>
-                </h1>
-                <nav class="header-nav">
-                    <ul class="header-nav-list">
-                        <li class="header-nav-item"><a href="#works">WORKS</a></li>
-                        <li class="header-nav-item"><a href="#skill">SKILL</a></li>
-                        <li class="header-nav-item"><a href="#about">ABOUT</a></li>
-                        <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!-- /header -->
-
-        <main class="content">
-
-            <!-- main-visual -->
-            <div class="main-visual">
-                <canvas id="canvas_wave"></canvas>
-                <div class="main-visual-inner">
-                    <p class="main-visual-title">shake</p>
-                    <p class="main-visual-subtitle">PORTFOLIO</p>
+                <h2 class="title">WORKS</h2>
+                <div class="works-list">
+                    <a class="works-item" href="intern.html">
+                        <p class="works-img"><img src="img/intern.png" alt=""/></p>
+                        <p class="works-name">インターンやハッカソン</p>
+                        <p class="works-info">参加したインターンやハッカソンのまとめ</p>
+                    </a>
+                    <a class="works-item" href="mensetu.html">
+                        <p class="works-img"><img src="img/mensetsu-top.png" alt=""/></p>
+                        <p class="works-name">めんせ通</p>
+                        <p class="works-info">モバイルアプリ</p>
+                    </a>
+                    <a class="works-item" href="chat.html">
+                        <p class="works-img"><img src="img/hanasu-top.png" alt=""/></p>
+                        <p class="works-name">ハナス</p>
+                        <p class="works-info">チャットアプリ(webアプリ)</p>
+                    </a>
+                    <a class="works-item" href="train.html">
+                        <p class="works-img"><img src="img/train_top.jpg" alt=""/></p>
+                        <p class="works-name">train-info</p>
+                        <p class="works-info">LINEbot</p>
+                    </a>
+                    <a class="works-item" href="todo.html">
+                        <p class="works-img"><img src="img/todo_top.png" alt=""/></p>
+                        <p class="works-name">ToDoアプリ</p>
+                        <p class="works-info">webアプリ</p>
+                    </a>
                 </div>
             </div>
-            <!-- /main-visual -->
+        </section>
+        <!-- /works -->
 
-            <!-- works -->
-            <section class="works section" id="works">
-                <div class="inner">
-                    <h2 class="title">WORKS</h2>
-                    <div class="works-list">
-                        <a class="works-item" href="intern.html">
-                            <p class="works-img"><img src="img/intern.png" alt="" /></p>
-                            <p class="works-name">インターンやハッカソン</p>
-                            <p class="works-info">参加したインターンやハッカソンのまとめ</p>
-                        </a>
-                        <a class="works-item" href="mensetu.html">
-                            <p class="works-img"><img src="img/mensetsu-top.png" alt="" /></p>
-                            <p class="works-name">めんせ通</p>
-                            <p class="works-info">モバイルアプリ</p>
-                        </a>
-                        <a class="works-item" href="chat.html">
-                            <p class="works-img"><img src="img/hanasu-top.png" alt="" /></p>
-                            <p class="works-name">ハナス</p>
-                            <p class="works-info">チャットアプリ(webアプリ)</p>
-                        </a>
-                        <a class="works-item" href="train.html">
-                            <p class="works-img"><img src="img/train_top.jpg" alt="" /></p>
-                            <p class="works-name">train-info</p>
-                            <p class="works-info">LINEbot</p>
-                        </a>
-                        <a class="works-item" href="todo.html">
-                            <p class="works-img"><img src="img/todo_top.png" alt="" /></p>
-                            <p class="works-name">ToDoアプリ</p>
-                            <p class="works-info">webアプリ</p>
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <!-- /works -->
-
-            <!-- skill -->
-            <section class="skill section" id="skill">
-                <div class="inner">
-                    <h2 class="title">SKILL</h2>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <div class="skill-body">
-                                <canvas id="frontChart"></canvas>
-                                <div class="skill-text">
-                                    <h3 class="skill-name">指標</h3>
-                                    <p>1:触ったことはある</p>
-                                    <p>2:ある程度書ける</p>
-                                    <p>3:実務経験あり</p>
-                                </div>
-                            </div>
-                            <div class="skill-body">
-                                <canvas id="backChart"></canvas>
-                                <div class="skill-text">
-                                    <h3 class="skill-name">指標</h3>
-                                    <p>1:触ったことはある</p>
-                                    <p>2:ある程度書ける</p>
-                                    <p>3:基本的なアルゴリズムは書ける</p>
-                                    <p>4:製作物あり</p>
-                                    <p>5:実務経験あり</p>
-                                </div>
+        <!-- skill -->
+        <section class="skill section" id="skill">
+            <div class="inner">
+                <h2 class="title">SKILL</h2>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-body">
+                            <canvas id="frontChart"></canvas>
+                            <div class="skill-text">
+                                <h3 class="skill-name">指標</h3>
+                                <p>1:触ったことはある</p>
+                                <p>2:ある程度書ける</p>
+                                <p>3:実務経験あり</p>
                             </div>
                         </div>
-                    </div>
-                    <p class="add-info">その他製作などで使用したツール等はそれぞれの製作物のページに記載しています．</p>
-                </div>
-            </section>
-            <!-- /skill -->
-
-            <!-- about -->
-            <section class="about section" id="about">
-                <div class="inner">
-                    <h2 class="title">ABOUT</h2>
-                    <div class="profile">
-                        <p class="profile-img">
-                            <img src="img/shake.png" alt="">
-                        </p>
-                        <div class="profile-body">
-                            <p>
-                                趣味：麻雀 (家に雀卓(簡易版)があるほど好きです)<br>
-                                &emsp;&emsp;&emsp;野球 (小学校の頃から野球をしていました)<br>
-                                <br>shakeという名前はニックネームのようなものです．<br>
-                                読み方は一応しゃけです．<br>
-                                <br>普段はこんなものがあったら便利だなと思ったものを作ったりしています．<br>
-                                <br>セキュリティ系に興味があるのですが、その土台として現在は色々な方面の知識をつけようと勉強しています．
-                            </p>
-                            <div class="links-list">
-                                <div class="links-item">
-                                    <a href="https://github.com/shake551">
-                                        <img src="img/github.png" alt="" style="background-color: #fff; border-radius: 50%; width: 30%;">
-                                    </a>
-                                    <br>
-                                    <b>
-                                        GitHub
-                                    </b>
-                                </div>
-                                <div class="links-item">
-                                    <a href="https://zenn.dev/shake_sanma">
-                                        <img src="img/zenn.png" alt="" style="background-color: #fff; border-radius: 50%; width: 30%;">
-                                    </a>
-                                    <br>
-                                    <b>
-                                        Zenn
-                                    </b>
-                                </div>
+                        <div class="skill-body">
+                            <canvas id="backChart"></canvas>
+                            <div class="skill-text">
+                                <h3 class="skill-name">指標</h3>
+                                <p>1:触ったことはある</p>
+                                <p>2:ある程度書ける</p>
+                                <p>3:基本的なアルゴリズムは書ける</p>
+                                <p>4:製作物あり</p>
+                                <p>5:実務経験あり</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- /about -->
-            <span id="about-contact"></span>
-            <!-- contact -->
-            <section class="contact section" id="contact">
-                <div class="inner">
-                    <h2 class="title">CONTACT</h2>
-                    <p class="lead">
-                        お問い合わせは、<br class="sp-only">こちらからお願いいたします．
-                        <br>
-                        Google Formsに遷移します．
+                <p class="add-info">その他製作などで使用したツール等はそれぞれの製作物のページに記載しています．</p>
+            </div>
+        </section>
+        <!-- /skill -->
+
+        <!-- about -->
+        <section class="about section" id="about">
+            <div class="inner">
+                <h2 class="title">ABOUT</h2>
+                <div class="profile">
+                    <p class="profile-img">
+                        <img src="img/shake.png" alt="">
                     </p>
-                    <div class="contact-form">
-                        <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd0S-KNguxtuoXrmPZR_nltcH54IxlIMSKq91_A0atAcBUxkg/formResponse" method="post">
-                            <ul>
-                                <li>
-                                    <input type="text" name="entry.2005620554"  placeholder="Name" class="form-ele">
-                                </li>
-                                <li>
-                                    <input type="email" name="entry.1045781291"  placeholder="mail" class="form-ele">
-                                </li>
-                                <li>
-                                    <input type="text" name="entry.1508029283"  placeholder="Subject" class="form-ele">
-                                </li>
-                                <li>
-                                    <textarea name="entry.839337160" rows="5" cols="30" placeholder="messages..." class="form-ele"></textarea>
-                                </li>
-                                <li>
-                                    <button type="submit" name="submit" class="btn btn-info">Submit</button>
-                                </li>
-                            </ul>
-                        </form>
+                    <div class="profile-body">
+                        <p>
+                            趣味：麻雀 (家に雀卓(簡易版)があるほど好きです)<br>
+                            &emsp;&emsp;&emsp;野球 (小学校の頃から野球をしていました)<br>
+                            <br>shakeという名前はニックネームのようなものです．<br>
+                            読み方は一応しゃけです．<br>
+                            <br>普段はこんなものがあったら便利だなと思ったものを作ったりしています．<br>
+                            <br>セキュリティ系に興味があるのですが、その土台として現在は色々な方面の知識をつけようと勉強しています．
+                        </p>
+                        <div class="links-list">
+                            <div class="links-item">
+                                <a href="https://github.com/shake551">
+                                    <img src="img/github.png" alt=""
+                                         style="background-color: #fff; border-radius: 50%; width: 30%;">
+                                </a>
+                                <br>
+                                <b>
+                                    GitHub
+                                </b>
+                            </div>
+                            <div class="links-item">
+                                <a href="https://zenn.dev/shake_sanma">
+                                    <img src="img/zenn.png" alt=""
+                                         style="background-color: #fff; border-radius: 50%; width: 30%;">
+                                </a>
+                                <br>
+                                <b>
+                                    Zenn
+                                </b>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <!-- /contact -->
-            <div class="page-top" id="js-page-top">
-                <span class="material-icons-outlined">expand_less</span>
             </div>
-        </main>
+        </section>
+        <!-- /about -->
+        <span id="about-contact"></span>
+        <!-- contact -->
+        <section class="contact section" id="contact">
+            <div class="inner">
+                <h2 class="title">CONTACT</h2>
+                <p class="lead">
+                    お問い合わせは、<br class="sp-only">こちらからお願いいたします．
+                    <br>
+                    Google Formsに遷移します．
+                </p>
+                <div class="contact-form">
+                    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd0S-KNguxtuoXrmPZR_nltcH54IxlIMSKq91_A0atAcBUxkg/formResponse"
+                          method="post">
+                        <ul>
+                            <li>
+                                <input type="text" name="entry.2005620554" placeholder="Name" class="form-ele">
+                            </li>
+                            <li>
+                                <input type="email" name="entry.1045781291" placeholder="mail" class="form-ele">
+                            </li>
+                            <li>
+                                <input type="text" name="entry.1508029283" placeholder="Subject" class="form-ele">
+                            </li>
+                            <li>
+                                <textarea name="entry.839337160" rows="5" cols="30" placeholder="messages..."
+                                          class="form-ele"></textarea>
+                            </li>
+                            <li>
+                                <button type="submit" name="submit" class="btn btn-info">Submit</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- /contact -->
+        <div class="page-top" id="js-page-top">
+            <span class="material-icons-outlined">expand_less</span>
+        </div>
+    </main>
 
-        <!-- footer -->
-        <footer class="footer">
-            <div class="copyright">&copy;shake</div>
-        </footer>
-        <!-- /footer -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="copyright">&copy;shake</div>
+    </footer>
+    <!-- /footer -->
 
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type='text/javascript' src="js/script.js"></script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type='text/javascript' src="js/script.js"></script>
 </body>
 
 </html>

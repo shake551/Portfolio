@@ -9,131 +9,131 @@
     <meta property='og:url' content='https://shake551.github.io/portfolio/'>
     <meta property='og:description' content='shakeのポートフォリオサイトです。'>
     <meta property="og:image" content="img/ogp.png">
-    <meta name="description" content="shakeのポートフォリオサイトです" />
+    <meta name="description" content="shakeのポートフォリオサイトです"/>
     <title>shake ポートフォリオ</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
-    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="img/favicon.ico" />
-    <link rel=”canonical” href="https://shake551.github.io/portfolio/" />
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel=”canonical” href="https://shake551.github.io/portfolio/"/>
 </head>
 
 <body>
-    <div class="wrapper">
+<div class="wrapper">
 
-        <!-- header -->
-        <header class="header ">
-            <div class="inner">
-                <h1 class="header-logo">
-                    <a href="./index.html">shake</a>
-                </h1>
-                <nav class="header-nav">
-                    <ul class="header-nav-list">
-                        <li class="header-nav-item"><a href="./index.html#works">WORKS</a></li>
-                        <li class="header-nav-item"><a href="./index.html#skill">SKILL</a></li>
-                        <li class="header-nav-item"><a href="./index.html#about">ABOUT</a></li>
-                        <li class="header-nav-item"><a href="./index.html#contact">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!-- /header -->
+    <!-- header -->
+    <header class="header ">
+        <div class="inner">
+            <h1 class="header-logo">
+                <a href="./index.html">shake</a>
+            </h1>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a href="./index.html#works">WORKS</a></li>
+                    <li class="header-nav-item"><a href="./index.html#skill">SKILL</a></li>
+                    <li class="header-nav-item"><a href="./index.html#about">ABOUT</a></li>
+                    <li class="header-nav-item"><a href="./index.html#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /header -->
 
-        <main class="content">
+    <main class="content">
 
-            <article class="article">
-                <div class="article-inner">
-                    <h2 class="article-title">train-info</h2>
-                    <div class="article-img">
-                        <img src="img/train_de.jpg" alt="">
-                    </div>
-                    <div class="article-body">
-                        <p>
-                            電車の運行状況をお知らせするLINEbotです
-                        </p>
-                        <h3 class="article-info-title">URLなど</h3>
-                            <div class="trainqr-img">
-                                <img src="img/train_qr.png" alt="">
-                            </div>
-                            <p>LINE botのQRコードです</p>
-                            <p>
-                                GitHub <br/>
-                                <a href="https://github.com/shake551/train-info-bot">https://github.com/shake551/train-info-bot</a>
-                            </p>
-                        <h3 class="article-info-title">サイト作成の動機</h3>
-                        <p>
-                            電車の運行情報を通知してくれるアプリ等は存在しますが、「アプリのダウンロード」「通知のON」というハードルがあり、使いにくいと感じていました．そこで、多くの人が通知をONにしているLINEを使って通知しようと考え開発しました．
-                        </p>
-                        <h3 class="article-info-title">機能・処理等</h3>
-                        <p>
-                            現在の機能は以下のようなものがあります．<br>
-                            ・通常運転でない路線の一覧送信<br>
-                            ・送信された路線名にヒットする路線の運行情報の通知<br>
-                            <br>
-                            電車の運行情報は以下のサイトからスクレイピングしていて、現在は近畿の路線のみ対応しています．<br>
-                            ・<a href="https://transit.yahoo.co.jp/traininfo/area/6/">https://transit.yahoo.co.jp/traininfo/area/6/</a><br>
-                            ユーザーが増えたりしてリクエストが集中した時にサイト運営側に負荷がかからないように、スクレイピングしたデータをDBに登録して、そこから運行状況を取得するという仕様にしています．<br>
-                            現在の方法では根本的解決にはなっていないので今後改善していきたいと考えています．
-                        </p>
-                        <h3 class="article-info-title">使用したもの</h3>
-                        <table class="img-table">
-                            <tr>
-                                <td>
-                                    <img src="img/python.png" alt="">
-                                    <p>Python</p>
-                                </td>
-                                <td>
-                                    <img src="img/flask.png" alt="">
-                                    <p>flask</p>
-                                </td>
-                                <td>
-                                    <img src="img/heroku.png" alt="">
-                                    <p>heroku</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="img/line-dev.jpg" alt="">
-                                    <p>LINE Developers</p>
-                                </td>
-                                <td>
-                                    <img src="img/postgres.png" alt="">
-                                    <p>postgresql</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <h3 class="article-info-title">今後したいこと</h3>
-                        <p>
-                        <ul>
-                            <li>リクエスト集中時の対策</li>
-                            <li>能動的な通知</li>
-                            <li>路線の登録機能追加</li>
-                        </ul>
-                        </p>
-                    </div>
-                    <div class="home-link">
-                        <a href="./index.html#works">Works一覧へ</a>
-                    </div>
+        <article class="article">
+            <div class="article-inner">
+                <h2 class="article-title">train-info</h2>
+                <div class="article-img">
+                    <img src="img/train_de.jpg" alt="">
                 </div>
-            </article>
-
-            <div class="page-top" id="js-page-top">
-                <span class="material-icons-outlined">expand_less</span>
+                <div class="article-body">
+                    <p>
+                        電車の運行状況をお知らせするLINEbotです
+                    </p>
+                    <h3 class="article-info-title">URLなど</h3>
+                    <div class="trainqr-img">
+                        <img src="img/train_qr.png" alt="">
+                    </div>
+                    <p>LINE botのQRコードです</p>
+                    <p>
+                        GitHub <br/>
+                        <a href="https://github.com/shake551/train-info-bot">https://github.com/shake551/train-info-bot</a>
+                    </p>
+                    <h3 class="article-info-title">サイト作成の動機</h3>
+                    <p>
+                        電車の運行情報を通知してくれるアプリ等は存在しますが、「アプリのダウンロード」「通知のON」というハードルがあり、使いにくいと感じていました．そこで、多くの人が通知をONにしているLINEを使って通知しようと考え開発しました．
+                    </p>
+                    <h3 class="article-info-title">機能・処理等</h3>
+                    <p>
+                        現在の機能は以下のようなものがあります．<br>
+                        ・通常運転でない路線の一覧送信<br>
+                        ・送信された路線名にヒットする路線の運行情報の通知<br>
+                        <br>
+                        電車の運行情報は以下のサイトからスクレイピングしていて、現在は近畿の路線のみ対応しています．<br>
+                        ・<a href="https://transit.yahoo.co.jp/traininfo/area/6/">https://transit.yahoo.co.jp/traininfo/area/6/</a><br>
+                        ユーザーが増えたりしてリクエストが集中した時にサイト運営側に負荷がかからないように、スクレイピングしたデータをDBに登録して、そこから運行状況を取得するという仕様にしています．<br>
+                        現在の方法では根本的解決にはなっていないので今後改善していきたいと考えています．
+                    </p>
+                    <h3 class="article-info-title">使用したもの</h3>
+                    <table class="img-table">
+                        <tr>
+                            <td>
+                                <img src="img/python.png" alt="">
+                                <p>Python</p>
+                            </td>
+                            <td>
+                                <img src="img/flask.png" alt="">
+                                <p>flask</p>
+                            </td>
+                            <td>
+                                <img src="img/heroku.png" alt="">
+                                <p>heroku</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/line-dev.jpg" alt="">
+                                <p>LINE Developers</p>
+                            </td>
+                            <td>
+                                <img src="img/postgres.png" alt="">
+                                <p>postgresql</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <h3 class="article-info-title">今後したいこと</h3>
+                    <p>
+                    <ul>
+                        <li>リクエスト集中時の対策</li>
+                        <li>能動的な通知</li>
+                        <li>路線の登録機能追加</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="home-link">
+                    <a href="./index.html#works">Works一覧へ</a>
+                </div>
             </div>
-        </main>
+        </article>
 
-        <!-- footer -->
-        <footer class="footer">
-            <div class="copyright">&copy;shake</div>
-        </footer>
-        <!-- /footer -->
+        <div class="page-top" id="js-page-top">
+            <span class="material-icons-outlined">expand_less</span>
+        </div>
+    </main>
 
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type='text/javascript' src="js/script.js"></script>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="copyright">&copy;shake</div>
+    </footer>
+    <!-- /footer -->
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type='text/javascript' src="js/script.js"></script>
 </body>
 
 </html>
