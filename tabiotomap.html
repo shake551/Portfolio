@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta property='og:type' content='website'>
+    <meta property='og:title' content='shake ポートフォリオ'>
+    <meta property='og:url' content='https://shake551.github.io/portfolio/'>
+    <meta property='og:description' content='shakeのポートフォリオサイトです。'>
+    <meta property="og:image" content="img/ogp.png">
+    <meta name="description" content="shakeのポートフォリオサイトです"/>
+    <title>shake ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel=”canonical” href="https://shake551.github.io/portfolio/"/>
+</head>
+
+<body>
+<div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+        <div class="inner">
+            <h1 class="header-logo">
+                <a href="./index.html">shake</a>
+            </h1>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a href="./index.html#works">WORKS</a></li>
+                    <li class="header-nav-item"><a href="./index.html#skill">SKILL</a></li>
+                    <li class="header-nav-item"><a href="./index.html#about">ABOUT</a></li>
+                    <li class="header-nav-item"><a href="./index.html#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+        <article class="article">
+            <div class="article-inner">
+                <h2 class="article-title">タビオトMAP</h2>
+                <div class="article-img">
+                    <img src="img/tabiotomap.png" alt="" width="50%">
+                </div>
+                <div class="article-body">
+                    <p>
+                        Google Map 上に音を登録し、それを再生できるスマホアプリです．
+                        <br>
+                        このプロダクトは「SPA JAM 第3回京都予選」という2daysハッカソンで開発したものです．
+                        <br>
+                        <b>また、優秀賞をいただきました．</b>
+                    </p>
+                    <h3 class="article-info-title">サイト作成の動機</h3>
+                    <p>
+                        これまでのスマホアプリは画像や動画など視覚的なものがほとんどでした．そこで我々は「音」に着目しました．
+                        音というものは人間の記憶と深く結びついており、旅先の音を記録し、音を通して思い出を懐かしむことができると考えました．
+                        また、その音を共有することで実際にはいっていないけれど旅行気分を味わえたり、離れていても各地の四季や情景を楽しめると考えました．
+                        そこで、音を登録し、後から聞くことができたり、共有できたりするアプリを作成しました．
+                    </p>
+
+                    <h3 class="article-info-title">こだったところ</h3>
+                    <h4>音声から色を生成する</h4>
+                    <p>
+                        mimi APIという音声から「悲しみ・嫌悪・喜び・怒り・平静」といった感情を数値化してくれるAPIを利用し、その数値からCMYK値を作ることで、その音にあった色を生成しました．
+                    </p>
+
+                    <h4>音声をサーバーサイドから配信する</h4>
+                    <p>
+                        音声をアプリのクライアントでデコードするのではなく、音声ファイルとしてサーバーサイドから配信するようにしました．
+                    </p>
+
+                    <h3 class="article-info-title">機能・処理等</h3>
+                    <p>
+                        現在の機能は以下のようなものがあります．<br>
+                    <h4>マップ上から音を聞く</h4>
+                    <table class="img-table">
+                        <td>
+                            <iframe src="https://www.youtube.com/embed/op9IQISZpo8?autoplay=1&mute=1&loop=1&playlist=op9IQISZpo8"
+                                    title="tabiotomap" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            <p>マップ上から音を聞く
+                                <br>
+                                ＊この動画は音が流れません</p>
+                        </td>
+                    </table>
+
+                    <h4>音を録音する</h4>
+                    <h4>自分が登録した音を聞く</h4>
+                    <h4>音から色を生成する</h4>
+
+                    <br>
+
+                    <h3 class="article-info-title">使用したもの</h3>
+                    <table class="img-table">
+                        <tr>
+                            <td>
+                                <img src="img/python.png" alt="">
+                                <p>Python</p>
+                            </td>
+                            <td>
+                                <img src="img/fastapi.png" alt="">
+                                <p>FastAPI</p>
+                            </td>
+                            <td>
+                                <img src="img/mysql.png" alt="">
+                                <p>MySQL</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/flutter.png" alt="">
+                                <p>Flutter</p>
+                            </td>
+                            <td>
+                                <img src="img/dart.png" alt="">
+                                <p>Dart</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="home-link">
+                    <a href="./index.html#works">Works一覧へ</a>
+                </div>
+            </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+            <span class="material-icons-outlined">expand_less</span>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="copyright">&copy;shake</div>
+    </footer>
+    <!-- /footer -->
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type='text/javascript' src="js/script.js"></script>
+</body>
+
+</html>
